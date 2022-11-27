@@ -11,12 +11,17 @@ a. Jumlah maksimal perangkat yang dapat berkomunikasi dalam mode station dengan 
 b. Untuk komunikasi tidak terenkripsi, jumlah maksimal perangkat adalah 20 unit, termasuk dengan yang terenkripsi.
 ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Communication. One-Way Communication terbagi menjadi Point-to-Point, One-to-Many Communication dan Many-to-One Communication. Sementara Two-Way Communication terbagi menjadi Point-to-Point dan Mesh Communication.
 
-Alat dan Bahan
+**Alat dan Bahan**
 1) ESP32
 2) Breadboard
 3) Kabel jumper
 4) Resistor 10K Ohm
 
-Langkah Percobaan
+**Langkah Percobaan**
+
 1) Memperoleh MAC Address ESP32 Receiver
+
+   Masukkan script pada percobaan ini. Lalu lihat hasilnya pada serial monito. Catat MAC Addressnya.
+   
+2) 
 
