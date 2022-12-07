@@ -11,17 +11,79 @@ a. Jumlah maksimal perangkat yang dapat berkomunikasi dalam mode station dengan 
 b. Untuk komunikasi tidak terenkripsi, jumlah maksimal perangkat adalah 20 unit, termasuk dengan yang terenkripsi.
 ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Communication. One-Way Communication terbagi menjadi Point-to-Point, One-to-Many Communication dan Many-to-One Communication. Sementara Two-Way Communication terbagi menjadi Point-to-Point dan Mesh Communication.
 
-**Alat dan Bahan**
+**ALAT DAN BAHAN**
 1) ESP32
 2) Breadboard
 3) Kabel jumper
 4) Resistor 10K Ohm
 
-**Langkah Percobaan**
+**HASIL KELUARAN**
 
-1) Memperoleh MAC Address ESP32 Receiver
+**1) Memperoleh MAC Address ESP32 Receiver**
+   ![MAC Address](https://user-images.githubusercontent.com/118364435/206248766-90fccff1-2d21-45b1-985c-32f515150bb0.jpeg)
 
-   Masukkan script pada percobaan ini. Lalu lihat hasilnya pada serial monito. Catat MAC Addressnya.
+**2) ESP-NOW One-Way Point-to-Point Communication**
    
-2) 
+   Keluaran Sender
+   
+   Keluaran Receiver
+   ![Receiver one way point to point](https://user-images.githubusercontent.com/118364435/206249400-a70ed2a4-f6b8-46f5-b6ef-b1801506354d.jpeg)
+   
+   
+   **Data Dummy Ukuran +-250 byte pada Receiver**
+   ![Receiver Data Dummy 250 byte](https://user-images.githubusercontent.com/118364435/206249952-47eb1f2e-0ecc-4f33-849e-4cf7716a46cf.jpeg)
+   
+   **Pengukuran Jarak Antara Sender dan Receiver**
+   
+   
+   
+**3) One Way, One to Many Communication**
+
+   **Mengirim Pesan yang Sama Ke Beberapa Board ESP32**
+  
+  Keluaran Sender
+          
+  Keluaran Receiver 1 (Aku)
+  ![Receiver One to many (a)](https://user-images.githubusercontent.com/118364435/206256450-e9c84540-2799-4772-9213-293b1802c539.jpeg)
+                  
+  Keluaran Receiver 2
+          
+  Keluaran Receiver 3
+          
+  Keluaran Receiver 4
+          
+  Keluaran Sender Setelah Mematikan Receiver 1
+          
+  Keluaran Receiver 1 Kelas
+  
+          
+   **Mengirim Pesan Berbeda Ke Beberapa Board ESP32**
+     
+   Keluaran Sender
+          
+   Keluaran Receiver 1 (Aku)
+   ![Receiver One to many (b)](https://user-images.githubusercontent.com/118364435/206256561-834c725e-d62e-4e39-bc3a-0944ed3b1777.jpeg)
+          
+   Keluaran Receiver 2
+          
+   Keluaran Receiver 3
+   
+          
+**4) One Way, Many to One Communication**
+
+   Keluaran Sender 1 (Aku)
+   ![Sender Many to one](https://user-images.githubusercontent.com/118364435/206255892-f2f618ec-95de-4e8c-9175-221b0f730c1f.jpeg)
+     
+   Keluaran Sender 2
+     
+   Keluaran Sender 3
+     
+   Keluaran Receiver
+   
+     
+**5) Two Way Communication**
+
+     
+
+
 
