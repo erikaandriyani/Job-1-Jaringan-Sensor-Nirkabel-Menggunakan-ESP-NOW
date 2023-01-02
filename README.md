@@ -26,7 +26,8 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
 **2) ESP-NOW One-Way Point-to-Point Communication**
    
    Keluaran Sender
-   ![B  Simplex PTP Sender](https://user-images.githubusercontent.com/118364435/210263182-1f75d640-de70-4a4e-97d3-d0d380d9bc63.png)
+   
+![B  Simplex PTP Sender](https://user-images.githubusercontent.com/118364435/210263182-1f75d640-de70-4a4e-97d3-d0d380d9bc63.png)
 
 
 
