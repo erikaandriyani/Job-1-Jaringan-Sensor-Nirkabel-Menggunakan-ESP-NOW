@@ -26,8 +26,8 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
 **2) ESP-NOW One-Way Point-to-Point Communication**
    
    Keluaran Sender
+   
 ![B  Simplex PTP Sender](https://user-images.githubusercontent.com/118364435/210263182-1f75d640-de70-4a4e-97d3-d0d380d9bc63.png)
-
 
 
    Keluaran Receiver
@@ -39,7 +39,8 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
    
    
    **Pengukuran Jarak Antara Sender dan Receiver**
-   ![Gambar Tinggi antenna One way to point to point xlsx](https://user-images.githubusercontent.com/118364435/210261951-761b5321-669e-4fc0-823c-2b9944345291.png)
+   
+![Gambar Tinggi antenna One way to point to point xlsx](https://user-images.githubusercontent.com/118364435/210261951-761b5321-669e-4fc0-823c-2b9944345291.png)
 
    
 **3) One Way, One to Many Communication**
@@ -47,15 +48,18 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
    **Mengirim Pesan yang Sama Ke Beberapa Board ESP32**
   
   Keluaran Sender
-  ![C  Simplex PTM Sender](https://user-images.githubusercontent.com/118364435/210262013-7c4296aa-c2f2-449c-8968-e28fc0ad2f04.png)
+  
+![C  Simplex PTM Sender](https://user-images.githubusercontent.com/118364435/210262013-7c4296aa-c2f2-449c-8968-e28fc0ad2f04.png)
         
         
   Keluaran Receiver 1 (Aku)
-  ![Receiver One to many (a)](https://user-images.githubusercontent.com/118364435/206256450-e9c84540-2799-4772-9213-293b1802c539.jpeg)
+  
+![Receiver One to many (a)](https://user-images.githubusercontent.com/118364435/206256450-e9c84540-2799-4772-9213-293b1802c539.jpeg)
                   
                   
   Keluaran Receiver 2
-  ![C  Simplex PTM Receiver](https://user-images.githubusercontent.com/118364435/210262046-8aed3cf9-e532-4659-9eb0-cdb6053db34e.png)
+  
+![C  Simplex PTM Receiver](https://user-images.githubusercontent.com/118364435/210262046-8aed3cf9-e532-4659-9eb0-cdb6053db34e.png)
         
         
   Keluaran Receiver 3
@@ -71,33 +75,40 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
    **Mengirim Pesan Berbeda Ke Beberapa Board ESP32**
      
    Keluaran Sender
-   ![C  Simplex PTM Tugas 3(b) Master](https://user-images.githubusercontent.com/118364435/210262603-6f2d8f88-7066-4209-9351-1ed68fb548f4.png)
+   
+![C  Simplex PTM Tugas 3(b) Master](https://user-images.githubusercontent.com/118364435/210262603-6f2d8f88-7066-4209-9351-1ed68fb548f4.png)
 
 
    Keluaran Receiver 1 (Aku)
-   ![C  Simplex PTM Tugas 3(b) Slave 1](https://user-images.githubusercontent.com/118364435/210262684-dbf0b2b6-1009-4e90-81d9-58def36275ce.png)
+   
+![C  Simplex PTM Tugas 3(b) Slave 1](https://user-images.githubusercontent.com/118364435/210262684-dbf0b2b6-1009-4e90-81d9-58def36275ce.png)
         
         
    Keluaran Receiver 2
-   ![Receiver One to many (b)](https://user-images.githubusercontent.com/118364435/206256561-834c725e-d62e-4e39-bc3a-0944ed3b1777.jpeg)
+   
+![Receiver One to many (b)](https://user-images.githubusercontent.com/118364435/206256561-834c725e-d62e-4e39-bc3a-0944ed3b1777.jpeg)
    
    
    Keluaran Receiver 3
-   ![C  Simplex PTM Tugas 3(b) Slave 3](https://user-images.githubusercontent.com/118364435/210262633-c5e9eaa7-15cb-458f-b285-cda627909679.png)
+   
+![C  Simplex PTM Tugas 3(b) Slave 3](https://user-images.githubusercontent.com/118364435/210262633-c5e9eaa7-15cb-458f-b285-cda627909679.png)
           
           
 **4) One Way, Many to One Communication**
 
    Keluaran Sender 1 (Aku)
-   ![Sender Many to one](https://user-images.githubusercontent.com/118364435/206255892-f2f618ec-95de-4e8c-9175-221b0f730c1f.jpeg)
+   
+![Sender Many to one](https://user-images.githubusercontent.com/118364435/206255892-f2f618ec-95de-4e8c-9175-221b0f730c1f.jpeg)
     
     
    Keluaran Sender 2
-   ![D  Simplex MTP Master](https://user-images.githubusercontent.com/118364435/210262725-f5fc17cd-c21b-46ad-9841-6357461b59d6.png)
+   
+![D  Simplex MTP Master](https://user-images.githubusercontent.com/118364435/210262725-f5fc17cd-c21b-46ad-9841-6357461b59d6.png)
   
      
    Keluaran Receiver
-   ![D  Simplex MTP Slave](https://user-images.githubusercontent.com/118364435/210262748-81f3cc3c-855d-4151-b852-6f830f47dd8d.png)
+   
+![D  Simplex MTP Slave](https://user-images.githubusercontent.com/118364435/210262748-81f3cc3c-855d-4151-b852-6f830f47dd8d.png)
 
 
      
