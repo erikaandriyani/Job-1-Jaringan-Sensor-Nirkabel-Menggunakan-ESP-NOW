@@ -45,12 +45,15 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
    **Mengirim Pesan yang Sama Ke Beberapa Board ESP32**
   
   Keluaran Sender
+  
   ![C  Simplex PTM Sender](https://user-images.githubusercontent.com/118364435/210262013-7c4296aa-c2f2-449c-8968-e28fc0ad2f04.png)
         
   Keluaran Receiver 1 (Aku)
+  
   ![Receiver One to many (a)](https://user-images.githubusercontent.com/118364435/206256450-e9c84540-2799-4772-9213-293b1802c539.jpeg)
                   
   Keluaran Receiver 2
+  
   ![C  Simplex PTM Receiver](https://user-images.githubusercontent.com/118364435/210262046-8aed3cf9-e532-4659-9eb0-cdb6053db34e.png)
         
   Keluaran Receiver 3
