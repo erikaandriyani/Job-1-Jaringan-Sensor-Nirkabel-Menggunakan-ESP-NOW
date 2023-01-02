@@ -23,6 +23,7 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
    ![MAC Address](https://user-images.githubusercontent.com/118364435/206248766-90fccff1-2d21-45b1-985c-32f515150bb0.jpeg)
 
 
+
 **B) ESP-NOW One-Way Point-to-Point Communication**
    
    Keluaran Sender
@@ -43,9 +44,10 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
 ![Gambar Tinggi antenna One way to point to point xlsx](https://user-images.githubusercontent.com/118364435/210261951-761b5321-669e-4fc0-823c-2b9944345291.png)
 
    
-**3) One Way, One to Many Communication**
+   
+**C) One Way, One to Many Communication**
 
-   **Mengirim Pesan yang Sama Ke Beberapa Board ESP32**
+   **1) Mengirim Pesan yang Sama Ke Beberapa Board ESP32**
   
   Keluaran Sender
   
@@ -75,7 +77,7 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
   Keluaran Receiver 1 Kelas
   
           
-   **Mengirim Pesan Berbeda Ke Beberapa Board ESP32**
+   **2) Mengirim Pesan Berbeda Ke Beberapa Board ESP32**
      
    Keluaran Sender
    
@@ -97,7 +99,8 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
 ![C  Simplex PTM Tugas 3(b) Slave 3](https://user-images.githubusercontent.com/118364435/210262633-c5e9eaa7-15cb-458f-b285-cda627909679.png)
           
           
-**4) One Way, Many to One Communication**
+          
+**D) One Way, Many to One Communication**
 
    Keluaran Sender 1 (Aku)
    
@@ -115,7 +118,7 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
 
 
      
-**5) Two Way Communication**
+**E) Two Way Communication**
 
      
 
