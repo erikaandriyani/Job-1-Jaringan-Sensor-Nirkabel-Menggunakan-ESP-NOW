@@ -83,7 +83,6 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
    
    Keluaran Receiver 3
    ![C  Simplex PTM Tugas 3(b) Slave 3](https://user-images.githubusercontent.com/118364435/210262633-c5e9eaa7-15cb-458f-b285-cda627909679.png)
-
           
           
 **4) One Way, Many to One Communication**
