@@ -19,11 +19,11 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
 
 **HASIL KELUARAN**
 
-**1) Memperoleh MAC Address ESP32 Receiver**
+**A) Memperoleh MAC Address ESP32 Receiver**
    ![MAC Address](https://user-images.githubusercontent.com/118364435/206248766-90fccff1-2d21-45b1-985c-32f515150bb0.jpeg)
 
 
-**2) ESP-NOW One-Way Point-to-Point Communication**
+**B) ESP-NOW One-Way Point-to-Point Communication**
    
    Keluaran Sender
    
