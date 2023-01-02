@@ -25,7 +25,9 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
 **2) ESP-NOW One-Way Point-to-Point Communication**
    
    Keluaran Sender
-   
+   ![B  Simplex PTP Sender](https://user-images.githubusercontent.com/118364435/210261917-51613474-9016-4809-ae6c-2b8ae4ffd768.png)
+
+
    Keluaran Receiver
    ![Receiver one way point to point](https://user-images.githubusercontent.com/118364435/206249400-a70ed2a4-f6b8-46f5-b6ef-b1801506354d.jpeg)
    
@@ -34,7 +36,8 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
    ![Receiver Data Dummy 250 byte](https://user-images.githubusercontent.com/118364435/206249952-47eb1f2e-0ecc-4f33-849e-4cf7716a46cf.jpeg)
    
    **Pengukuran Jarak Antara Sender dan Receiver**
-   
+   ![Gambar Tinggi antenna One way to point to point xlsx](https://user-images.githubusercontent.com/118364435/210261951-761b5321-669e-4fc0-823c-2b9944345291.png)
+
    
    
 **3) One Way, One to Many Communication**
@@ -42,12 +45,14 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
    **Mengirim Pesan yang Sama Ke Beberapa Board ESP32**
   
   Keluaran Sender
-          
+  ![C  Simplex PTM Sender](https://user-images.githubusercontent.com/118364435/210262013-7c4296aa-c2f2-449c-8968-e28fc0ad2f04.png)
+        
   Keluaran Receiver 1 (Aku)
   ![Receiver One to many (a)](https://user-images.githubusercontent.com/118364435/206256450-e9c84540-2799-4772-9213-293b1802c539.jpeg)
                   
   Keluaran Receiver 2
-          
+  ![C  Simplex PTM Receiver](https://user-images.githubusercontent.com/118364435/210262046-8aed3cf9-e532-4659-9eb0-cdb6053db34e.png)
+        
   Keluaran Receiver 3
           
   Keluaran Receiver 4
