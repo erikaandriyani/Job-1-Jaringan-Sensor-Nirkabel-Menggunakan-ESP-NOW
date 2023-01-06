@@ -139,5 +139,10 @@ Keluaran
 Analisa : Pada percobaan ini digunakan 2 ESP32 dan 2 sensor DHT11 sebagai sender dan receiver. Sebelumnya cek dulu berapa MAC Addressnya. Jika alamat sudah diketahui, maka masukkan alamat receiver di program sender (sebaliknya). Data sensor suhu receiver/sender akan terlihat di serial monitor.
      
 
-
+**KESIMPULAN**
+1) ESP NOW merupakan protokol jaringan yang menggunakan MAC Address dari ESP tersebut untuk bisa saling berkomunikasi. Ketika ESP habis catu daya, maka ketika dihubungkan kembali (restart) secara otomatis akan terhubung kembali.
+2) Komunikasi One Way Point to Point merupakan komunikasi langsung 2 arah antara sender dan receiver dalam satu jalur yaitu MAC Address ESP32.
+3) Komunikasi One Way One to Many merupakan komunikasi dari 1 sender ke beberapa receiver menggunakan alamat MAC dari tiap ESP yang ingin dihubungkan. Bisa mengirimkan pesan yang sama ataupun berbeda.
+4) Komunikasi One Way Many to One merupakan komunikasi dari beberapa sender ke 1 receiver menggunakan alamat MAC dari tiap ESP.
+5) Komunikasi Two Way dalam percobaan ini menggunakan 2 sensor suhu untuk sender dan receiver. Two Way disini artinya data yang didapat berasal dari ESP (MAC Address) dan DHT11 (data suhu). 
 
