@@ -24,6 +24,8 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
 
 
 
+Analisa : Percobaan ini adalah mendeteksi MAC Address dari ESP32. Dari alamat inilah bisa dilakukan komunikasi dengan ESP32 lain.
+
 **B) ESP-NOW One-Way Point-to-Point Communication**
    
    Keluaran Sender
@@ -35,15 +37,21 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
    ![Receiver one way point to point](https://user-images.githubusercontent.com/118364435/206249400-a70ed2a4-f6b8-46f5-b6ef-b1801506354d.jpeg)
    
    
-   **Data Dummy Ukuran +-250 byte pada Receiver**
+   Analisa : Percobaan One Way Point to Point ini yaitu menghubungkan ESP sender langsung ke ESP receiver dengan memasukkan alamat MAC tujuannya. Pada output sender akan tertulis data berhasil terkirim jika data terkirim. Dan pada output receiver akan tertera byte yang terkirim (char, int, float, boolean), nilai int, nilai float, dan nilai boolean.
+   
+   **Tugas Data Dummy Ukuran +-250 byte pada Receiver**
    ![Receiver Data Dummy 250 byte](https://user-images.githubusercontent.com/118364435/206249952-47eb1f2e-0ecc-4f33-849e-4cf7716a46cf.jpeg)
    
+   
+   Analisa : Percobaan ini meminta data dengan byte +-250. Pada output didapatkan byte yang mendekati yaitu 236 byte yang merupakan hasil dari char a, int, float, bool, dan char e. Nilai int, float, dan bool yang keluar adalah pembacaan dari char yang dimasukkan.
    
    **Pengukuran Jarak Antara Sender dan Receiver**
    
 ![Gambar Tinggi antenna One way to point to point xlsx](https://user-images.githubusercontent.com/118364435/210261951-761b5321-669e-4fc0-823c-2b9944345291.png)
 
    
+   
+   Analisa : Percobaan ini dilakukan mengukur jarak dan ketinggian ESP antara sender dan receiver. Dari data yang didapatkan dengan berbagai tinggi dan jarak yang dimasukkan, jumlah pesan yang dikirim sama hasilnya dengan yang diterima. Ini artinya tidak ada packet yang loss dan pesan diterima semua. Jika menggunakan freshnel zone dengan frekuensi 1 GHz dan d1, d2 berurutan seperti (1, 2); (2, 3); (3, 4); (4, 5) meter, didapatkan selisih nilai freshnel zone +-4 meter. Bisa dikatakan bahwa sinyal wireless dapat menembus tinggi ESP tersebut pada wilayah freshnel. Bahkan jauh dari tinggi ESP saat diukur. Maka dari itu, keadaan LOS ini membuat packet terkirim dan diterima 100%.
    
 **C) One Way, One to Many Communication**
 
@@ -54,27 +62,24 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
 ![C  Simplex PTM Sender](https://user-images.githubusercontent.com/118364435/210262013-7c4296aa-c2f2-449c-8968-e28fc0ad2f04.png)
         
         
-  Keluaran Receiver 1 (Aku)
-  
-![Receiver One to many (a)](https://user-images.githubusercontent.com/118364435/206256450-e9c84540-2799-4772-9213-293b1802c539.jpeg)
-                  
-                  
-  Keluaran Receiver 2
+  Keluaran Receiver 1
   
 ![C  Simplex PTM Receiver](https://user-images.githubusercontent.com/118364435/210262046-8aed3cf9-e532-4659-9eb0-cdb6053db34e.png)
-        
-        
-  Keluaran Receiver 3
+                  
+                  
+  Keluaran Receiver 2 (Aku)
   
-  
-  Keluaran Receiver 4
+  ![Receiver One to many (a)](https://user-images.githubusercontent.com/118364435/206256450-e9c84540-2799-4772-9213-293b1802c539.jpeg)
+        
           
   Keluaran Sender Setelah Mematikan Receiver 1
   
 ![C  Simplex PTM Tugas 1](https://user-images.githubusercontent.com/118364435/210264524-13c12f4a-bd52-42ac-a60f-ceaff68f148e.png)
 
-          
-  Keluaran Receiver 1 Kelas
+  
+  Analisa : Menggunakan 4 ESP, yaitu 3 receiver dan 1 sender pada percobaan ini merupakan komunikasi One to Many dengan mengirim pesan yang sama berupa int dengan byte berjumlah 8. Seperti yang tertera pada receiver. Dan ketika mematikan salah satu receiver (hanya menggunakan 2 receiver saat percobaan mematikan), maka pada serial monitor, pengiriman packet akan gagal karena ESP terputus dari arduino.
+  
+  Keluaran Receiver 1 Kelas (belum)
   
           
    **2) Mengirim Pesan Berbeda Ke Beberapa Board ESP32**
@@ -99,7 +104,8 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
 ![C  Simplex PTM Tugas 3(b) Slave 3](https://user-images.githubusercontent.com/118364435/210262633-c5e9eaa7-15cb-458f-b285-cda627909679.png)
           
           
-          
+   Analisa : Pada percobaan ini yaitu mengirim pesan berbeda ke 3 ESP receiver. Dapat dilihat dari hasil nilai x dan y tiap receiver, nilainya akan berbeda (puluhan/ratusan/ribuan). Tidak seperti pada point nomor 1 yang sama nilainya antara x dan y.
+   
 **D) One Way, Many to One Communication**
 
    Keluaran Sender 1 (Aku)
@@ -117,7 +123,8 @@ ESP-NOW mempunyai 2 tipe jaringan, yaitu One-Way Communication dan Two-Way Commu
 ![D  Simplex MTP Slave](https://user-images.githubusercontent.com/118364435/210262748-81f3cc3c-855d-4151-b852-6f830f47dd8d.png)
 
 
-     
+   Analisa : Percobaan ini adalah komunikasi Many to One menggunakan 2 sender dan 1 receiver. Dapat dilihat dari output sender, packet akan terkirim jika pada serial monitor tertulis delivery success. Dan pada output receiver, terlihat nilai random (dari script yang dimasukkan) dari x dan y dengan rentang 0-50.
+   
 **E) Two Way Communication**
 
 Rangkaian
