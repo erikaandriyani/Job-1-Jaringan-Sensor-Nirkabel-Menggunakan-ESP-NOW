@@ -128,16 +128,8 @@ Analisa : Percobaan ini adalah mendeteksi MAC Address dari ESP32. Dari alamat in
 
    Analisa : Percobaan ini adalah komunikasi Many to One menggunakan 2 sender dan 1 receiver. Dapat dilihat dari output sender, packet akan terkirim jika pada serial monitor tertulis delivery success. Dan pada output receiver, terlihat nilai random (dari script yang dimasukkan) dari x dan y dengan rentang 0-50.
    
-**E) Two Way Communication**
+**E) Two Way Communication** (belum)
 
-Rangkaian
-![WhatsApp Image 2023-01-05 at 23 17 33](https://user-images.githubusercontent.com/118364435/210829011-4f865df9-b9c0-4f5f-b619-ae3e7cbd937d.jpeg)
-
-Keluaran
-
-![E  Duplex Tugas 1](https://user-images.githubusercontent.com/118364435/210829077-2772452c-b7d2-4ada-aa2d-433a771db900.png)
-
-Analisa : Pada percobaan ini digunakan 2 ESP32 dan 2 sensor DHT11 sebagai sender dan receiver. Sebelumnya cek dulu berapa MAC Addressnya. Jika alamat sudah diketahui, maka masukkan alamat receiver di program sender (sebaliknya). Data sensor suhu receiver/sender akan terlihat di serial monitor.
      
 
 **KESIMPULAN**
