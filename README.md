@@ -51,7 +51,10 @@ Analisa : Percobaan ini adalah mendeteksi MAC Address dari ESP32. Dari alamat in
 
    
    
-   Analisa : Percobaan ini dilakukan mengukur jarak dan ketinggian ESP antara sender dan receiver. Dari data yang didapatkan dengan berbagai tinggi dan jarak yang dimasukkan, jumlah pesan yang dikirim sama hasilnya dengan yang diterima. Ini artinya tidak ada packet yang loss dan pesan diterima semua. Jika menggunakan freshnel zone dengan frekuensi 1 GHz dan d1, d2 berurutan seperti (1, 2); (2, 3); (3, 4); (4, 5) meter, didapatkan selisih nilai freshnel zone +-4 meter. Bisa dikatakan bahwa sinyal wireless dapat menembus tinggi ESP tersebut pada wilayah freshnel. Bahkan jauh dari tinggi ESP saat diukur. Maka dari itu, keadaan LOS ini membuat packet terkirim dan diterima 100%.
+   Analisa : Percobaan ini dilakukan mengukur jarak dan ketinggian ESP antara sender dan receiver. Dari data yang didapatkan dengan berbagai tinggi dan jarak yang dimasukkan, jumlah pesan yang dikirim sama hasilnya dengan yang diterima. Ini artinya tidak ada packet yang loss dan pesan diterima semua. Jika menggunakan freshnel zone dengan frekuensi 1 GHz dan d1, d2 berurutan seperti (1, 2); (2, 3); (3, 4); (4, 5) meter, didapatkan selisih nilai freshnel zone +-4 meter. Bisa dikatakan bahwa sinyal wireless dapat menembus tinggi ESP tersebut pada wilayah freshnel. Bahkan jauh dari tinggi ESP saat diukur. Maka dari itu, keadaan LOS ini membuat packet terkirim dan diterima 100%. Berikut perhitungan freshnel zone,
+   
+   ![Perhitungan freshnel zone](https://user-images.githubusercontent.com/118364435/210935465-fa9a9280-6514-49e0-918c-fc8d3320eb3e.PNG)
+
    
 **C) One Way, One to Many Communication**
 
